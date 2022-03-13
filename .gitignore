@@ -1,0 +1,5 @@
+# toIgnore
+.idea/
+target/
+*.log
+*.class
