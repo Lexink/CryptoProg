@@ -1,8 +1,8 @@
-package ru.javarush.gribanov.cryptoanalizer;
+package ru.javarush.gribanov.cryptoanalyzer;
 
-import ru.javarush.gribanov.cryptoanalizer.controllers.MainController;
-import ru.javarush.gribanov.cryptoanalizer.entity.Result;
-import ru.javarush.gribanov.cryptoanalizer.exceptions.AppException;
+import ru.javarush.gribanov.cryptoanalyzer.controllers.MainController;
+import ru.javarush.gribanov.cryptoanalyzer.entity.Result;
+import ru.javarush.gribanov.cryptoanalyzer.exceptions.AppException;
 
 import java.util.Arrays;
 

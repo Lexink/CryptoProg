@@ -1,12 +1,10 @@
-package ru.javarush.gribanov.cryptoanalizer.controllers;
+package ru.javarush.gribanov.cryptoanalyzer.controllers;
 
-import ru.javarush.gribanov.cryptoanalizer.commands.Action;
-import ru.javarush.gribanov.cryptoanalizer.commands.Decoder;
-import ru.javarush.gribanov.cryptoanalizer.commands.Encoder;
-import ru.javarush.gribanov.cryptoanalizer.exceptions.AppException;
+import ru.javarush.gribanov.cryptoanalyzer.commands.*;
+import ru.javarush.gribanov.cryptoanalyzer.exceptions.AppException;
 
 public enum Actions {
-    ENCODE(new Encoder()), DECODE(new Decoder());
+    ENCODE(new Encoder()), DECODE(new Decoder()), BRUTE_FORCE(new BruteForcer()), ANALYZE(new StatAnalyzer());
 
     private final Action action;
 

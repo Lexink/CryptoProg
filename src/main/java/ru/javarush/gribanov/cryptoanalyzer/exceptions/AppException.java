@@ -1,4 +1,4 @@
-package ru.javarush.gribanov.cryptoanalizer.exceptions;
+package ru.javarush.gribanov.cryptoanalyzer.exceptions;
 
 public class AppException extends RuntimeException {
     public AppException() {
